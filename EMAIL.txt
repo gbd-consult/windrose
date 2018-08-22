@@ -1,0 +1,69 @@
+Von: Wolfram Bahmann <wob@posteo.de>
+An: Otto Dassau <dassau@gbd-consult.de>
+Betreff: Re: Programm zur Erzeugung von Windrosen in GQIS
+Datum: Wed, 22 Aug 2018 14:16:40 +0200
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101
+ Thunderbird/52.9.1
+
+Hallo Otto,
+
+es gibt sogar ein spezielles Paket WINDROSE frei verfügbar.
+Die dort möglichen Darstellungen gefallen uns aber nicht besonders. Es
+sind immer Sektoren als Elemente, d.h. eine größere Häufigkeit je Sektor
+macht auch einen nach außen hin immer breiteren Sektor und täuscht damit
+eine noch größere Häufigkeit vor. Deshalb wollten wir eine einfache
+Strich-Darstellung je Sektormitte haben, die dann auch nicht im Ursprung
+beginnt, sondern auf dem inneren Kreis (mit 0%).
+Wenn Du matplotlib trotzdem sinnvoll einsetzen kannst, besteht natürlich
+kein Gegenargument unsererseits.
+
+Gruß
+Wolfram
+
++++++++++++++++++++++++++++++++++++++++++
+
+Am 22.08.2018 um 14:02 schrieb Otto Dassau:
+> Hallo Wolfram,
+>
+> eine Frage: Aus welchem Grund soll für die Umsetzung der Grafik nicht mit
+> matplotlib wie beim Plugin umgesetzt werden? Das wäre die einfachste
+> Lösung. 
+>
+> In der OSGeo4W Package Verwaltung ist matplotlib als Python Modul enthalten
+> und kann bei der Installation unter Windows ausgewählt und dann
+> direkt mitinstalliert werden. Wäre das eine Option?
+>
+> Viele Grüße
+> Otto
+>
+> Am Fri, 17 Aug 2018 21:32:35 +0200
+> schrieb Wolfram Bahmann <wob@posteo.de>:
+>  
+>> Hallo Otto,
+>>
+>> (ich verwende gerade meine private eMail, da unser Mailserver nicht
+>> korrekt läuft)
+>>
+>> Ich beziehe mich auf den Kontakt von André zu Dir bzgl. eines
+>> Python-Programms, das aus einer Karte von Stationen, beim Anklicken
+>> aus einer Gesamtdatei aller Stationen (angehängt) den pasenden Record
+>> herausfiltert und die dort abgelegten Werte zu einer Grafik verarbeitet,
+>> die dann angezeigt wird. Man sollte diese Grafik auch als bspw. als PNG
+>> abspeichern können.
+>>
+>> Ein Grafik-Vorschlag und eine kurze Beschreibung zum Programmablauf
+>> hängt hier auch mit an.
+>>
+>> Die Grafik ist absichtlich so aufgebaut, dass mann nicht die Skripts aus
+>> matplotlib o.ä. benötigt.
+>>
+>> Für Rücksprachen stehe ich gerne zur Verfügung (eMail oder Tel. 02486
+>> 6974020). QGIS-ASpekte bitte mit André besprechen.  
+
+
+-- 
+mit freundlichem Gruß
+Wolfram Bahmann
+
+Zum Mertesberg 49  .  53947 Nettersheim-Marmagen
+T 02486 6974020 F 02486 6974019  E wob@posteo.de
