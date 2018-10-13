@@ -6,3 +6,5 @@ Dies ist ein Python-Programm, das aus einer Karte von Stationen, beim Anklicken 
 Ein Grafik-Vorschlag vorschlag_stations-windrose.pdf und eine kurze Beschreibung zum Programmablauf anleitung_zum_programmieren.pdf  ist hier mit abgelegt.
 
 Die Grafik ist absichtlich so aufgebaut, dass mann nicht die Skripts aus matplotlib o.ä. benötigt.
+
+Zum Testen dient die Datei meteo_ifu_allstations.csv. Das ist eine Stationsliste, in der auch die Parameternamen in der Kopfzeile stehen.
