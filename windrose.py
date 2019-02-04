@@ -1,7 +1,5 @@
-import csv
 import math
 from PIL import Image, ImageDraw, ImageFont
-from random import randint
 
 class WindroseDraw(ImageDraw.ImageDraw):
     def __init__(self, im, radius, width, center = None, mode = None):
@@ -70,21 +68,31 @@ class WindroseDraw(ImageDraw.ImageDraw):
 
 
 
-def windrose(nlist, ntotal):
-    """ Function to generate a windrose Image
-    :param nlist: List of number of occurences for each wind direction
-    :param ntotal: total number of wind direction measurements
+def windrose(nlist, ntotal, id, station, net, start, end, hasl, hagr, avgff, calm):
+    """ Function to generate a windrose Image.
+    :param nlist: List of number of occurences for each wind direction.
+    :param ntotal: total number of wind direction measurements.
+    :param id: id of the weather station.
+    :param station: name of the weather station.
+    :param net: network to which the weather station belongs.
+    :param start: start date of measurements.
+    :param end: end date of measurements.
+    :param hasl: height above sea level of the station (m).
+    :param hagr: height of measurent above station.
+    :param avgff: Average FF (m/s).
+    :param calm: number of measurements with FF < 0.5.
     """
     bg_color = '#ffffff'
     fg_color = '#000000'
     bar_color = '#4CB29C'
-    width = 800
+    width = 700
     height = 800
+    header_height = 100
     margin = 50
     inner_radius = 60
     outer_radius = (width / 2 - margin) - inner_radius
     bar_width = 12
-    center = (int(width / 2), int(height / 2))
+    center = (int(width / 2), int((height - header_height) / 2) + header_height)
     
     try:
         font = ImageFont.truetype('arial.ttf', 18)
@@ -95,7 +103,7 @@ def windrose(nlist, ntotal):
             font = ImageFont.load_default()
 
     im = Image.new('RGB', (width, height), bg_color)
-    draw = WindroseDraw(im, inner_radius, bar_width)
+    draw = WindroseDraw(im, inner_radius, bar_width, center = center)
 
     values_perc = [v / ntotal * 100 for v in nlist]
 
@@ -127,21 +135,16 @@ def windrose(nlist, ntotal):
     # draw the bars
     for x in range(0,360,30):
         draw.bar(values_scaled[int(x / 30)], math.radians(x + 180), bar_color)
-    #im.show()
-    im.save('./test.png')
+
+    # draw metadata header
+    metadata = "%s %s   %s\n%s - %s\n%s m NHN  %s m GOK  %.2f m/s" % (net, id, station, start, end, hasl, hagr, avgff)
+    draw.line([(0, header_height), (width, header_height)], fill = fg_color)
+    draw.text((margin / 2,margin / 2), metadata, font = font, fill = fg_color)
+
+    # draw calm percentage
+    calm_perc = calm / ntotal * 100
+    calm_text = "%.2f %%" % calm_perc
+    calm_size = font.getsize(calm_text)
+    draw.text(((center[0] - calm_size[0] / 2), (center[1] - calm_size[1] / 2)), calm_text, font = font, fill = fg_color)
     
-
-stations = []
-with open('./all_stations_metdb.csv', encoding = 'latin1') as csvfile:
-    reader = csv.DictReader(csvfile, delimiter = ',')
-    for row in reader:
-        stations.append(dict(row))
-
-
-my_station = stations[2902]
-print(my_station)
-
-values = [int(my_station.get('n' + str(x).rjust(3,'0'))) for x in range(0, 360, 30)]
-
-windrose(values, int(my_station.get('ntotal ')))
-
+    im.show()
