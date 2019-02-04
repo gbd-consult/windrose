@@ -1,0 +1,741 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.4.4-Madeira" projectname="">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>3452</srsid>
+      <srid>4326</srid>
+      <authid>EPSG:4326</authid>
+      <description>WGS 84</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>WGS84</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer source="file:///arbeit/github/windrose/meteo_ifu_allstations.csv?type=csv&amp;detectTypes=yes&amp;xField=lon&amp;yField=lat&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no" providerKey="delimitedtext" id="all_stations_metdb_7e4499bc_6f8b_40de_ac45_3c118761aced" name="all_stations_metdb" checked="Qt::Checked" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>all_stations_metdb_7e4499bc_6f8b_40de_ac45_3c118761aced</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings intersection-snapping="0" mode="2" tolerance="12" type="1" enabled="0" unit="1">
+    <individual-layer-settings>
+      <layer-setting id="all_stations_metdb_7e4499bc_6f8b_40de_ac45_3c118761aced" units="1" tolerance="12" type="1" enabled="0"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>6.83297567500000014</xmin>
+      <ymin>51.17090269999999919</ymin>
+      <xmax>8.1800973250000002</xmax>
+      <ymax>51.71183329999999501</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer showFeatureCount="0" drawingOrder="-1" open="true" name="all_stations_metdb" checked="Qt::Checked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="1" layerid="all_stations_metdb_7e4499bc_6f8b_40de_ac45_3c118761aced" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <projectlayers>
+    <maplayer refreshOnNotifyMessage="" labelsEnabled="0" styleCategories="AllStyleCategories" maxScale="0" autoRefreshTime="0" simplifyDrawingTol="1" minScale="1e+8" simplifyDrawingHints="0" geometry="Point" refreshOnNotifyEnabled="0" type="vector" simplifyAlgorithm="0" simplifyMaxScale="1" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" readOnly="0">
+      <extent>
+        <xmin>6.8650500000000001</xmin>
+        <ymin>51.18378200000000078</ymin>
+        <xmax>8.14802300000000024</xmax>
+        <ymax>51.69895400000000052</ymax>
+      </extent>
+      <id>all_stations_metdb_7e4499bc_6f8b_40de_ac45_3c118761aced</id>
+      <datasource>file:./meteo_ifu_allstations.csv?type=csv&amp;detectTypes=yes&amp;xField=lon&amp;yField=lat&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>all_stations_metdb</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxz="0" miny="0" crs="" maxy="0" dimensions="2" minz="0" maxx="0" minx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 symbollevels="0" forceraster="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol clip_to_extent="1" name="0" alpha="1" type="marker" force_rhr="0">
+            <layer pass="0" class="SimpleMarker" enabled="1" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="152,125,183,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>id</value>
+        </property>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory labelPlacementMethod="XHeight" sizeScale="3x:0,0,0,0,0,0" rotationOffset="270" width="15" penWidth="0" maxScaleDenominator="1e+8" diagramOrientation="Up" penColor="#000000" height="15" opacity="1" penAlpha="255" lineSizeType="MM" lineSizeScale="3x:0,0,0,0,0,0" sizeType="MM" scaleDependency="Area" scaleBasedVisibility="0" enabled="0" minScaleDenominator="0" backgroundAlpha="255" minimumSize="0" barWidth="5" backgroundColor="#ffffff">
+          <fontProperties description="Noto Sans,10,-1,0,50,0,0,0,0,0,Regular" style="Regular"/>
+          <attribute field="" color="#000000" label=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings placement="0" linePlacementFlags="18" zIndex="0" dist="0" obstacle="0" priority="0" showAll="1">
+        <properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="net">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="station">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="start">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="end">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lon">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lat">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="hasl">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="n000">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="n030">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="n060">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="n090">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="n120">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="n150">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="n180">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="n210">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="n240">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="n270">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="n300">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="n330">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="hagr">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="avgff">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="calm">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ntotal">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="net" index="0" name=""/>
+        <alias field="station" index="1" name=""/>
+        <alias field="id" index="2" name=""/>
+        <alias field="start" index="3" name=""/>
+        <alias field="end" index="4" name=""/>
+        <alias field="lon" index="5" name=""/>
+        <alias field="lat" index="6" name=""/>
+        <alias field="hasl" index="7" name=""/>
+        <alias field="n000" index="8" name=""/>
+        <alias field="n030" index="9" name=""/>
+        <alias field="n060" index="10" name=""/>
+        <alias field="n090" index="11" name=""/>
+        <alias field="n120" index="12" name=""/>
+        <alias field="n150" index="13" name=""/>
+        <alias field="n180" index="14" name=""/>
+        <alias field="n210" index="15" name=""/>
+        <alias field="n240" index="16" name=""/>
+        <alias field="n270" index="17" name=""/>
+        <alias field="n300" index="18" name=""/>
+        <alias field="n330" index="19" name=""/>
+        <alias field="hagr" index="20" name=""/>
+        <alias field="avgff" index="21" name=""/>
+        <alias field="calm" index="22" name=""/>
+        <alias field="ntotal" index="23" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="net" expression="" applyOnUpdate="0"/>
+        <default field="station" expression="" applyOnUpdate="0"/>
+        <default field="id" expression="" applyOnUpdate="0"/>
+        <default field="start" expression="" applyOnUpdate="0"/>
+        <default field="end" expression="" applyOnUpdate="0"/>
+        <default field="lon" expression="" applyOnUpdate="0"/>
+        <default field="lat" expression="" applyOnUpdate="0"/>
+        <default field="hasl" expression="" applyOnUpdate="0"/>
+        <default field="n000" expression="" applyOnUpdate="0"/>
+        <default field="n030" expression="" applyOnUpdate="0"/>
+        <default field="n060" expression="" applyOnUpdate="0"/>
+        <default field="n090" expression="" applyOnUpdate="0"/>
+        <default field="n120" expression="" applyOnUpdate="0"/>
+        <default field="n150" expression="" applyOnUpdate="0"/>
+        <default field="n180" expression="" applyOnUpdate="0"/>
+        <default field="n210" expression="" applyOnUpdate="0"/>
+        <default field="n240" expression="" applyOnUpdate="0"/>
+        <default field="n270" expression="" applyOnUpdate="0"/>
+        <default field="n300" expression="" applyOnUpdate="0"/>
+        <default field="n330" expression="" applyOnUpdate="0"/>
+        <default field="hagr" expression="" applyOnUpdate="0"/>
+        <default field="avgff" expression="" applyOnUpdate="0"/>
+        <default field="calm" expression="" applyOnUpdate="0"/>
+        <default field="ntotal" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint field="net" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="station" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="id" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="start" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="end" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="lon" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="lat" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="hasl" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="n000" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="n030" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="n060" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="n090" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="n120" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="n150" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="n180" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="n210" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="n240" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="n270" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="n300" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="n330" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="hagr" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="avgff" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="calm" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="ntotal" notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="net" exp="" desc=""/>
+        <constraint field="station" exp="" desc=""/>
+        <constraint field="id" exp="" desc=""/>
+        <constraint field="start" exp="" desc=""/>
+        <constraint field="end" exp="" desc=""/>
+        <constraint field="lon" exp="" desc=""/>
+        <constraint field="lat" exp="" desc=""/>
+        <constraint field="hasl" exp="" desc=""/>
+        <constraint field="n000" exp="" desc=""/>
+        <constraint field="n030" exp="" desc=""/>
+        <constraint field="n060" exp="" desc=""/>
+        <constraint field="n090" exp="" desc=""/>
+        <constraint field="n120" exp="" desc=""/>
+        <constraint field="n150" exp="" desc=""/>
+        <constraint field="n180" exp="" desc=""/>
+        <constraint field="n210" exp="" desc=""/>
+        <constraint field="n240" exp="" desc=""/>
+        <constraint field="n270" exp="" desc=""/>
+        <constraint field="n300" exp="" desc=""/>
+        <constraint field="n330" exp="" desc=""/>
+        <constraint field="hagr" exp="" desc=""/>
+        <constraint field="avgff" exp="" desc=""/>
+        <constraint field="calm" exp="" desc=""/>
+        <constraint field="ntotal" exp="" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{8058aa31-2711-48fc-8a1a-932de6cf4fd9}" key="Canvas"/>
+        <actionsetting shortTitle="wr" id="{8058aa31-2711-48fc-8a1a-932de6cf4fd9}" name="wr" capture="0" isEnabledOnlyWhenEditable="0" icon="" type="1" action="from windrose import windrose&#xa;windrose([[%n000%],[%n030%],[%n060%],[%n090%],[%n120%],[%n150%],&#xa;    [%n180%],[%n210%],[%n240%],[%n270%],[%n300%],[%n330%]],&#xa;    [%ntotal%], '[%id%]', '[%station%]', '[%net%]', '[%start%]',&#xa;    '[%enddate%]', [%hasl%], [%hagr%], [%avgff%], [%calm%])" notificationMessage="">
+          <actionScope id="Feature"/>
+          <actionScope id="Canvas"/>
+        </actionsetting>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns>
+          <column hidden="0" width="-1" name="net" type="field"/>
+          <column hidden="0" width="138" name="station" type="field"/>
+          <column hidden="0" width="-1" name="id" type="field"/>
+          <column hidden="0" width="-1" name="start" type="field"/>
+          <column hidden="0" width="-1" name="lon" type="field"/>
+          <column hidden="0" width="-1" name="lat" type="field"/>
+          <column hidden="0" width="-1" name="hasl" type="field"/>
+          <column hidden="0" width="-1" name="n000" type="field"/>
+          <column hidden="0" width="-1" name="n030" type="field"/>
+          <column hidden="0" width="-1" name="n060" type="field"/>
+          <column hidden="0" width="-1" name="n090" type="field"/>
+          <column hidden="0" width="-1" name="n120" type="field"/>
+          <column hidden="0" width="-1" name="n150" type="field"/>
+          <column hidden="0" width="-1" name="n180" type="field"/>
+          <column hidden="0" width="-1" name="n210" type="field"/>
+          <column hidden="0" width="-1" name="n240" type="field"/>
+          <column hidden="0" width="-1" name="n270" type="field"/>
+          <column hidden="0" width="-1" name="n300" type="field"/>
+          <column hidden="0" width="-1" name="n330" type="field"/>
+          <column hidden="0" width="-1" name="hagr" type="field"/>
+          <column hidden="0" width="-1" name="avgff" type="field"/>
+          <column hidden="0" width="-1" name="calm" type="field"/>
+          <column hidden="0" width="-1" name="ntotal" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
+          <column hidden="0" width="-1" name="end" type="field"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="avgff"/>
+        <field editable="1" name="calm"/>
+        <field editable="1" name="enddate"/>
+        <field editable="1" name="hagr"/>
+        <field editable="1" name="hasl"/>
+        <field editable="1" name="id"/>
+        <field editable="1" name="lat"/>
+        <field editable="1" name="lon"/>
+        <field editable="1" name="n000"/>
+        <field editable="1" name="n030"/>
+        <field editable="1" name="n060"/>
+        <field editable="1" name="n090"/>
+        <field editable="1" name="n120"/>
+        <field editable="1" name="n150"/>
+        <field editable="1" name="n180"/>
+        <field editable="1" name="n210"/>
+        <field editable="1" name="n240"/>
+        <field editable="1" name="n270"/>
+        <field editable="1" name="n300"/>
+        <field editable="1" name="n330"/>
+        <field editable="1" name="net"/>
+        <field editable="1" name="ntotal"/>
+        <field editable="1" name="start"/>
+        <field editable="1" name="station"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="avgff"/>
+        <field labelOnTop="0" name="calm"/>
+        <field labelOnTop="0" name="enddate"/>
+        <field labelOnTop="0" name="hagr"/>
+        <field labelOnTop="0" name="hasl"/>
+        <field labelOnTop="0" name="id"/>
+        <field labelOnTop="0" name="lat"/>
+        <field labelOnTop="0" name="lon"/>
+        <field labelOnTop="0" name="n000"/>
+        <field labelOnTop="0" name="n030"/>
+        <field labelOnTop="0" name="n060"/>
+        <field labelOnTop="0" name="n090"/>
+        <field labelOnTop="0" name="n120"/>
+        <field labelOnTop="0" name="n150"/>
+        <field labelOnTop="0" name="n180"/>
+        <field labelOnTop="0" name="n210"/>
+        <field labelOnTop="0" name="n240"/>
+        <field labelOnTop="0" name="n270"/>
+        <field labelOnTop="0" name="n300"/>
+        <field labelOnTop="0" name="n330"/>
+        <field labelOnTop="0" name="net"/>
+        <field labelOnTop="0" name="ntotal"/>
+        <field labelOnTop="0" name="start"/>
+        <field labelOnTop="0" name="station"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>id</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="all_stations_metdb_7e4499bc_6f8b_40de_ac45_3c118761aced"/>
+  </layerorder>
+  <properties>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <PAL>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <TextFormat type="int">0</TextFormat>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+    </PAL>
+    <Gui>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Measurement>
+      <DistanceUnits type="QString"></DistanceUnits>
+      <AreaUnits type="QString"></AreaUnits>
+    </Measurement>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <author>towa</author>
+    <creation>2019-02-04T10:08:15</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+</qgis>
