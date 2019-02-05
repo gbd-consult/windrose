@@ -1,5 +1,5 @@
 # windrose
-Skript zum Darstellen einer Windrose aus einem Punktlayer.
+Skript zum Darstellen einer Windrose aus einem CSV Punktlayer.
 
 Dies ist ein Python-Programm, das aus einer Karte von Stationen, beim Anklicken 
 aus einer Gesamtdatei aller Stationen im CSV Format (angehängt) den passenden 
