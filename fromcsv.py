@@ -23,6 +23,6 @@ for s in stations:
     print('generating plot: %s %s' % (s.get('net'), s.get('id')))
     windrose(values, int(s.get('ntotal')),
         s.get('id'), s.get('station'), s.get('net'),
-        s.get('start'), s.get('end'), s.get('hasl'),
+        s.get('start'), s.get('enddate'), s.get('hasl'),
         s.get('hagr'),  float(s.get('avgff')),
         int(s.get('calm')), os.path.join(out_path, '%s_%s.png' % (s.get('net'), s.get('id'))))
