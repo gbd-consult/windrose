@@ -13,3 +13,11 @@ windrose([[%n000%],[%n030%],[%n060%],[%n090%],[%n120%],[%n150%],
     [%ntotal%], '[%id%]', '[%station%]', '[%net%]', '[%start%]',
     '[%enddate%]', [%hasl%], [%hagr%], [%avgff%], [%calm%])
 ```
+Für das *Balkendiagramm* wird eine eigene *Python Action* äquivalet dazu erzeugt:
+```
+from windrose import balken
+balken([[%wgk1%],[%wgk2%],[%wgk3%],[%wgk4%],[%wgk5%],
+    [%wgk6%],[%wgk7%],[%wgk8%],[%wgk9%]],
+    '[%id%]', '[%station%]', '[%net%]', '[%start%]',
+    '[%enddate%]', [%hasl%], [%hagr%], [%avgff%])
+```
