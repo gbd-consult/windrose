@@ -143,13 +143,19 @@ def balken(wgk_list, id, station, net, start, end, hasl, hagr, avgff, output_fil
         for l in range(0, scale_max + 5, 5):
             y = y0 - l * scale_factor
             draw.line([(x0,y),(x0 + full_plot_width, y)], fill = fg_color)
-            draw.text((x0 + full_plot_width, y), '%s%%' % l, fill = fg_color, font = font)
+            scale_text = '%s%%' % l
+            text_size = font.getsize(scale_text)
+            draw.text((x0 + full_plot_width - text_size[0], y - text_size[1]),
+                scale_text, fill = fg_color, font = font)
 
         # plot the bars
         for i in range(len(values_scaled)):
             x = x0 + i * (full_plot_width / 9)
             y = y0 - values_scaled[i]
             draw.rectangle([(x,y0),(x + bar_width, y)], fill = bar_color)
+            text = 'wgk%s' % str(i + 1)
+            text_size = font.getsize(text)
+            draw.text((x, y0 + text_size[1]), text, fill = fg_color, font = font)
 
         # draw metadata header
         drawMetadataHeader(draw, id, station, net, start, end, hasl, hagr, avgff)
